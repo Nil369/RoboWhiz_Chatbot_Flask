@@ -1,3 +1,5 @@
+#This code is written by Akash Halder
+
 from flask import Flask, render_template , request , redirect, jsonify
 from flask_sqlalchemy import SQLAlchemy
 from datetime import datetime
@@ -16,11 +18,6 @@ class Todo(db.Model):
     def __repr__(self) -> str:
         return f"{self.Slno} - {self.title}"
 
-
-
-# app.py
-
-# ... (your existing imports and code)
 
 @app.route("/get_intents", methods=['GET'])
 def get_intents():
