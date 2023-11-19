@@ -1,5 +1,5 @@
 # RoboWhiz_Chatbot_Flask
-# RoboWhiz Chatbot 
+
 
 <h1>RoboWhiz: The Intelligent Conversational AI</h1>
 
@@ -23,27 +23,9 @@
 
 
 
-# Demo Images:
-![image](https://github.com/Nil369/Chatbot-RoboWhiz/assets/148447931/13a9712f-1450-4119-8596-db5b40527071)
 
-![image](https://github.com/Nil369/Chatbot-RoboWhiz/assets/148447931/a72d4f48-71db-41f3-8d8a-b7280d431cce)
+https://github.com/Nil369/RoboWhiz_Chatbot_Flask/assets/148447931/1d361a91-d922-49f7-a8dc-3833fe88195b
 
-![image](https://github.com/Nil369/Chatbot-RoboWhiz/assets/148447931/9ce43548-9d8c-4e1f-b55b-46aa6f2b0b8d)
-
-#Responsive
-![image](https://github.com/Nil369/Chatbot-RoboWhiz/assets/148447931/37b1f056-63c9-4b3b-8bef-3f5eb56151ca)
-
-# How to use the code?
-
- 1. Make an html file named index.html
-    
- 2. Make a file named style.css => In this all the Styling of the chatbot is done. 
- 
- 3. Make a file named script.js => In this all the logic of the Chatbot and webpage is done.
-    
- 4. Paste the following the codes in the respective file names.
- 
- 5. Replace the API Key with your own Open AI API Key.
 
 
 In conclusion, RoboWhiz is a versatile and intelligent conversational AI designed to revolutionize the way you interact with your audience. Whether it's customer support, lead generation, or providing valuable information, RoboWhiz is the ultimate tool to elevate your business's conversational capabilities.
