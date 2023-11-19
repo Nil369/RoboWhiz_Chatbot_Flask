@@ -1,0 +1,42 @@
+{% extends 'base.html' %}
+{% block title %}
+    Home| Update -Todo
+{% endblock title %}
+{% block body %}
+
+
+
+
+<div class="container my-4">
+    <h1 class="text-center">RoboWhiz Chatbot Database</h1>
+    <h2>Update your Intents</h2>
+
+    
+    <form action="/update/{{todo.sno}}" method="POST">
+        <div class="form-group">
+            <label for="title">Query</label>
+            <input type="text" name="title" class="form-control" value="{{todo.title}}" id="title" aria-describedby="emailHelp">
+            <small id="emailHelp" class="form-text text-muted">Update your Query</small>
+
+            <div class="form-group my-3">
+                <label for="description">Response</label>
+                <input type="text" name="desc" class="form-control" value="{{todo.desc}}" id="title" aria-describedby="emailHelp">
+                <small id="emailHelp" class="form-text text-muted">Update your Response</small>
+
+            </div>
+        </div>
+
+        <button type="submit" id="add" class="btn btn-outline-primary my-2" >Update</button>
+
+    </form>
+
+
+   
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+
+
+{% endblock body %}

@@ -1,0 +1,14 @@
+{
+    "intents": [
+      {
+        "name": "private_sector_jobs",
+        "responses": ["We have various private sector job opportunities available. Can you provide specific preferences?"]
+      },
+      {
+        "name": "government_jobs",
+        "responses": ["Explore government job opportunities. What type of government job are you interested in?"]
+      }
+      
+    ]
+  }
+  
